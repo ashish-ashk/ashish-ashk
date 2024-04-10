@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ashish Portfolio</title>
+    <link rel="stylesheet" href="style.css"/>
+    <script src="https://kit.fontawesome.com/f558cf81e5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo1.jpg" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header" onclick="closeMenu()">Home</a></li>
+                    <li><a href="#about" onclick="closeMenu()">About</a></li>
+                    <li><a href="#services" onclick="closeMenu()">Services</a></li>
+                    <li><a href="#portfolio" onclick="closeMenu()">Portfolio</a></li>
+                    <li><a href="#contact" onclick="closeMenu()">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closeMenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openMenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Designer</p>
+                <h1>Hi, I'm <span>Ashish</span><br>from Faridabad</h1>
+            </div>
+        </div>
+    </div>
+    <!----------about----------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Images/image1.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>👋 Hello! I'm currently a 3rd year B.Tech (IT) student at <b>Greater Noida Institute of Technology (GNIOT)</b>, driven by a passion for programming and a dream to become a <b>"Software Engineer"</b> at a prestigious tech company, where I can contribute my skills and expertise to impactful projects 🚀. 💻 My coding journey encompasses a strong foundation in Data Structures and Algorithms (DSA), Web Development, and a burgeoning interest in Web3 and Blockchain Technology 🌐🔗. Let's connect and pave the way for a future driven by innovation and collaboration! 🚀
+                    </p>
+                    <div class="tab-titles">
+                       <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                       <p class="tab-links" onclick="opentab('achievements')">Achievements</p>
+                       <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Development</span><br>Web Development and Interfaces Design</li>
+                            <li><span>DSA</span><br>DSA in C++</li>
+                            <li><span>Languages</span><br>C++, HTML, CSS, My SQL and JavaScript</li>
+                            <li><span>Core Subjects</span><br>Operating Systems, DBMS and OOPs </li>
+                            <li><span>Communication and Leadership</span><br>Public Speaking, Presentation Skills and a Leader</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="achievements">
+                        <ul>
+                            <li><span>Research Paper Published</span><br>Transaction System Based On Blockchain Technology Using Smart Contract   <a href="https://drive.google.com/file/d/1CP67wDSxmmY-IFSLvLsSw5KrIFhYBfJ3/view?usp=drivesdk">Paper Link</a></li>
+                            <li><span>Patent Grant</span><br>SYATEMS AND METHODS TO BOOK AN APPOINTMENT WITH A HEALTHCARE PROVIDER   <a href="https://drive.google.com/file/d/1Pgam8jh8fSB8Mf7RMckVqthphn3_chwm/view?usp=drivesdk">Patent Link</a>   <a href="https://drive.google.com/file/d/1HYWzywbsB_pOCF7QBLFRVpczDufqMwgP/view?usp=drivesdk">Patent Draft</a></li>
+                            <li><span>Academic Excellence Award</span><br>Rank 1 in First and Second Year  <a href="">Result Link</a></li>
+                            <li><span>Short Film Making</span><br>Won 3rd prize   <a href="">Short Film Link</a></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Bachelor's of Tchnology (Information Technology) (2021-25) - 8.95 CGPA</span><br>Currently in 3rd Year of my degree from Greater Noida Institute of Technology, Greater Noida</li>
+                            <li><span>12th - 72.4%</span><br>From National Institute of Open Schooling</li>
+                            <li><span>10th - 10 CGPA</span><br>From St. Columbus Sdchool, Faridabad</li>
+                        </ul>
+                    </div>
+                </div>    
+            </div>
+        </div>
+    </div>
+    <!------------------------services------------------------>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Crafting unique, visually stunning websites tailored to your brand's identity and objectives. I specialize in creating responsive designs that look exceptional across all devices, ensuring your website stands out in today's competitive digital landscape.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-image"></i>
+                    <h2>Graphics Design</h2>
+                    <p>Crafting unique, visually stunning websites tailored to your brand's identity and objectives. I specialize in creating responsive designs that look exceptional across all devices, ensuring your website stands out in today's competitive digital landscape.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-pen-ruler"></i>
+                    <h2>Thumbnail/Poster Design</h2>
+                    <p>Crafting unique, visually stunning websites tailored to your brand's identity and objectives. I specialize in creating responsive designs that look exceptional across all devices, ensuring your website stands out in today's competitive digital landscape.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----------------------------------portfolio-------------------------------------------------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+             <div class="work-list">
+                <div class="work">
+                    <img src="images/image2.jpg">
+                    <div class="layer">
+                        <h3>Portfolio App</h3>
+                        <p>Designing a best Portfolio which suits your profile.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/image3.jpg">
+                    <div class="layer">
+                        <h3>Portfolio App</h3>
+                        <p>Designing a best Portfolio which suits your profile.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/image4.jpg">
+                    <div class="layer">
+                        <h3>Portfolio App</h3>
+                        <p>Designing a best Portfolio which suits your profile.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+             </div>
+             <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!---------------------------------------contact----------------------------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i> its.ashish.2001@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> +91-8448557855</p>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/ashish_ash_k?igsh=OGQ5ZDc2ODk2ZA=="><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href="https://twitter.com/ashish_ash_kr?t=cuYcJbnw0_E2S92EY2w7dw&s=09"><i class="fa-brands fa-square-x-twitter"></i></a>
+                        <a href="https://www.linkedin.com/in/ashish-kumar2001"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://join.slack.com/shareDM/zt-2g8rbt406-YVLWRcHhSfwW3TjO_DEupQ"><i class="fa-brands fa-slack"></i></a>
+                        <a href="https://discord.com/channels/@ashish_ash_k"><i class="fa-brands fa-discord"></i></a>
+                    </div>
+                    <a href="images/AshishResumePDF.pdf" download class="btn btn2">Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright @Ashish. Made with <i class="fa-solid fa-heart"></i></p>
+        </div>
+    </div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
