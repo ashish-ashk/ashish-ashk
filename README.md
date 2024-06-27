@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @ashish-ashk
 - 👀 I’m interested in coding and learning
-- 🌱 I’m currently learning Blockchain Development 
-- 💞️ I’m looking to collaborate on Blockchain projects and coding problems 
+- 🌱 I’m currently learning React
+- 💞️ I’m looking to collaborate on React projects and coding problems 
 - 📫 How to reach me https://www.linkedin.com/in/ashish-kumar-098b2b219
 
 <!---
